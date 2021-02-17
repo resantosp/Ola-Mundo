@@ -1,0 +1,7 @@
+numero = int(input('Informe um número (sem pontos e vírgulas): '))
+n = str(int(10000 + numero))
+print('\nAnalisando o número {}...'.format(numero))
+print('UNIDADE: {}'.format(n[4]))
+print('DEZENA: {}'.format(n[3]))
+print('CENTENA: {}'.format(n[2]))
+print('MILHAR: {}'.format(n[1]))

@@ -1,0 +1,12 @@
+from math import sin, cos, tan, radians
+print(('='*10), ' FUNÇÕES TRIGONOMÉTRICAS ', ('='*10))
+angulo = float(input('Digite o valor do ângulo: '))
+rad = radians(angulo)
+seno = sin(rad)
+cosseno = cos(rad)
+tangente = tan(rad)
+print(' ')
+print(('='*17), ' RESULTADO ', ('='*17))
+print('O <seno> de {} graus é {:.2f} radianos.'.format(angulo, seno))
+print('O <cosseno> de {} graus é {:.2f} radianos.'.format(angulo, cosseno))
+print('A <tangente> de {} graus é {:.2f} radianos.'.format(angulo, tangente))

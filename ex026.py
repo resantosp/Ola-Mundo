@@ -1,0 +1,11 @@
+print(('='*15), ' \033[1;31;40mROBÔ AMIGO\033[mj ', ('='*15))
+nome = input('Qual é o seu nome?\n')
+frase = input('Olá, {}! O que você gostaria de me contar hoje?\n'.format(nome)).strip().lower()
+fraser = frase.replace('á', 'a').replace('ã', 'a').replace('à', 'a').replace('â', 'a')
+print('\nAdorei falar com você hoje! Vamos analisar o que você disse?')
+##a = int(frase.count('a'))
+##A = int(frase.count('A'))
+##total = a + A
+print('A letra A foi encontrada quantas vezes? {:>10}'.format(fraser.count('a')))
+print('A letra A aparece primeiro na posição: {:>10}'.format(fraser.find('a')+1))
+print('A letra A aparece por último na posição: {:>10}'.format(fraser.rfind('a')+1))
