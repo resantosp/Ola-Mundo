@@ -1,11 +1,8 @@
 #Faça um programa que leia o sexo de uma pessoa, mas só aceite os valores 'M' ou 'F'. Caso esteja errado, peça a digitação novamente até ter o valor correto.
 
-s = 'F'
+sexo = str(input('Informe seu sexo: [F/M] ')).upper().strip()[0]
 
-while s != 'F':
-    s = str(input('Sexo: [F/M] ')).upper()
-    if s == 'F' or s == 'M':
-        print('Obrigada.')
-    else:
-        print('Por favor, insira corretamente.')
-print('Obrigada.')
+while sexo not in 'MF':
+    sexo = str(input('Dados inválidos. Por favor, informe seu sexo: [F/M] ')).upper().strip()[0]
+
+idade = int(input('Informe sua idade:'))
