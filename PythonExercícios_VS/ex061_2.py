@@ -4,7 +4,7 @@ ptermo = int(input('\nPrimeiro termo: '))
 razao = int(input('Razão: '))
 
 termo = ptermo
-contador = 1 #o contador vai iniciar em um pq a ideia é ele contar quandos números já foram mostrados na tela até chegar em 10
+contador = 1 #o contador vai iniciar em 1 pq a ideia é ele contar quantos números já foram mostrados na tela até chegar em 10
 
 while contador <= 10:
     print('{} ->'.format(termo), end=' ')
