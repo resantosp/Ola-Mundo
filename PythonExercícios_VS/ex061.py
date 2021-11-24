@@ -1,6 +1,6 @@
 #Refaça o DESAFIO 51, lendo o primeiro termo e a razão de uma PA, mostrando os 10 primeiros termos da progressão usando a estrutura while.
 
-print('\n','-'*40, '\n', ' '*10, '= CALCULADORA DE PA =', '\n', '-'*40)
+print('\n','-'*40, '\n', ' '*10, '= 10 TERMOS DA PA =', '\n', '-'*40)
 
 ptermo = int(input('\nPrimeiro termo: '))
 razao = int(input('Razão: '))
